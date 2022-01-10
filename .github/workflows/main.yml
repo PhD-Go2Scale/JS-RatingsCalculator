@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: PhD-Go2Scale/hello-world-docker-action@v1
+        uses: https://github.com/PhD-Go2Scale/hello-world-action.git@v1
         with:
           who-to-greet: 'Guy Rostan NANA'
       # Use the output from the `hello` step
